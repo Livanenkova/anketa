@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto-v20-latin_cyrillic-regular.woff") format("woff"), url("../fonts/roboto-latin_cyrillic-regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; 
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "RobotoBold";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-900.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../fonts/playfair-latin_cyrillic-regular.woff") format("woff"), url("../fonts/playfair-display-v20-latin_cyrillic-regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; 
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "PlayfairDisplayBold";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/playfair-display-v20-latin-900.woff2") format("woff2"), url("../fonts/playfair-display-v20-latin-900.woff") format("woff");
+}
