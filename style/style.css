@@ -1,0 +1,92 @@
+body {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+	width: 1440px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.page-header {
+	background-color:#ffffff;
+	height: 200px;
+	width: 100%;
+	padding-top: 16px;
+}
+
+.nav__list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 94%;
+}
+
+.header-title {
+font-family: Playfair Display;
+font-style: normal;
+font-weight: 900;
+font-size: 39px;
+line-height: 47px;
+text-transform: none;
+
+letter-spacing: 1px;
+padding-top: 15px;
+}
+
+.nav {
+	padding: 5px 85px 0px 79px;
+}
+
+.nav__item {
+	width: 125px;
+}
+
+.nav__link {
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: 2px;
+
+color: #000000;
+}
+
+.page-main__banner {
+	background-image: url(../img/banner-bg.png);
+	height: 464px;
+	width: auto;
+	color: #ffffff;
+}
+
