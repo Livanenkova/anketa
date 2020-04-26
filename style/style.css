@@ -187,5 +187,11 @@ width: 90%;
 }
 
 .ticket-wrapper {
+	width: 707px;
+	height: 707px;
 	text-align: center;
+	margin: 0 auto;
+	background-color: #ffffff;
+	border-radius: 50%;
+	padding-top: 50px;
 }
