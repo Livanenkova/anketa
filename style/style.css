@@ -130,7 +130,7 @@ width: 35%;
 	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	padding: 0px 120px 0px 120px;
+	padding: 0px 120px 35px 120px;
 }
 
 .gallery-title {
@@ -183,15 +183,81 @@ width: 90%;
 }
 
 .ticket {
+	position: relative;
 	background-color: #F7F7F7;
+	height: 556px;
 }
 
 .ticket-wrapper {
+	position: absolute;
+	top: -50px;
+	left: 340px;
 	width: 707px;
 	height: 707px;
 	text-align: center;
-	margin: 0 auto;
 	background-color: #ffffff;
 	border-radius: 50%;
-	padding-top: 50px;
+}
+
+.main-footer {
+	position: relative;
+	z-index: 1;
+}
+
+.ticket-title {
+	padding-top: 80px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+
+.ticket-item__subtitle {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+  text-transform: none;
+  color: #000000;
+  margin-bottom: 0px;
+/*  margin-top: 0px;*/
+}
+
+.ticket-item__text {
+	font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: none;
+  margin-top: 6px;
+}
+
+.ticket-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	align-content: center;
+}
+
+.line::after{
+	content: " ";
+	position: absolute;
+	height: 1px;
+	width: 100px;
+	top: 125px;
+	left: 130px;
+	background-color: rgba(0, 0, 0, 0.3);
+	opacity: 0.3;
+}
+
+.ticket-item {
+	width: 52%;
+	position: relative;
+	flex-basis: 127px
 }
