@@ -48,7 +48,8 @@ img {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 94%;
+	/*width: 94%;*/
+	width: 95%;
 }
 
 .header-title {
@@ -65,11 +66,12 @@ text-align: center;
 }
 
 .nav {
-	padding: 5px 85px 0px 79px;
+/*	padding: 5px 85px 0px 79px;*/
+padding: 5px 110px 0px 100px;
 }
 
 .nav__item {
-	width: 125px;
+/*	width: 125px;*/
 }
 
 .nav__link {
