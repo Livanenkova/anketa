@@ -294,9 +294,19 @@ font-style: normal;
 font-weight: normal;
 font-size: 15px;
 line-height: 18px;
-/* identical to box height */
-
 letter-spacing: 2px;
-
 color: #ffffff;
+}
+
+.footer-title {
+	margin-top: 50px;
+	font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: none;
+  padding-top: 28px;
 }
