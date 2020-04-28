@@ -114,17 +114,17 @@ color: #000000;
 }
 
 .page-main__banner-text{
-font-family: 'Roboto', sans-serif;
-text-transform: none;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 21px;
-
-text-align: center;
-margin: 0 auto;
-padding-top: 76px;
-width: 35%;
+  font-family: 'Roboto', sans-serif;
+  text-transform: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 76px;
+  width: 35%;
 }
 
 .gallery {
@@ -155,15 +155,15 @@ width: 35%;
 }
 
 .photo-title {
-font-family: 'Playfair Display', serif;
-font-style: normal;
-font-weight: bolder;
-font-size: 23px;
-line-height: 31px;
-text-transform: none;
-text-align: left;
-margin-top: 15px;
-margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 23px;
+  line-height: 31px;
+  text-transform: none;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .photo-wrapper__img {
@@ -172,16 +172,16 @@ margin-bottom: 10px;
 }
 
 .photo-text {
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 150%;
-color: #000000;
-text-transform: none;
-
-margin-top: 0px;
-width: 90%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+  text-transform: none;
+  
+  margin-top: 0px;
+  width: 90%;
 }
 
 .ticket {
@@ -286,18 +286,18 @@ width: 90%;
 
 .main-footer {
 	background-color: #575757;
-		color: #ffffff;
+	color: #ffffff;
 
 }
 
 .nav__link-footer {
 	font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 18px;
-letter-spacing: 2px;
-color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  color: #ffffff;
 }
 
 .footer-title {
@@ -311,4 +311,23 @@ color: #ffffff;
   text-align: center;
   text-transform: none;
   padding-top: 28px;
+  margin-bottom: 14px;
+}
+
+.main-footer__icon {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.footer-icon {
+	background-color: #ffffff;
+	width: 47px;
+	height: 47px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	margin: 73px 7px 30px 7px;
 }
