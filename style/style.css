@@ -40,7 +40,7 @@ img {
 	background-color:#ffffff;
 	height: 200px;
 	width: 100%;
-	padding-top: 23px;
+	padding-top: 18px;
 }
 
 .nav__list {
@@ -58,7 +58,7 @@ img {
 }
 
 .nav-header {
-  padding: 10px 110px 0px 100px;
+  padding: 10px 110px 0px 94px;
 }
 
 .header-title {
@@ -69,7 +69,7 @@ img {
   line-height: 47px;
   text-transform: none;
   letter-spacing: 1px;
-  padding-top: 15px;
+  padding-top: 18px;
   text-align: center;
 }
 
@@ -92,7 +92,6 @@ img {
 	height: 464px;
 	width: auto;
 	color: #ffffff;
-
 }
 
 .page-main__banner-icon {
@@ -121,7 +120,7 @@ img {
   line-height: 21px;
   text-align: center;
   margin: 0 auto;
-  padding-top: 85px;
+  padding-top: 89px;
   width: 35%;
 }
 
@@ -330,4 +329,39 @@ img {
 	justify-content: center;
 	align-items:center;
 	margin: 73px 7px 30px 7px;
+}
+
+.main-footer__icon::before {
+	content: " ";
+	position: absolute;
+	height: 1px;
+	width: 1170px;
+	top: 160px;
+	left: 135px;
+	background-color: #ffffff;
+	opacity: 0.4;
+}
+
+.footer-icon:hover {
+	background-color: #FF7931;
+}
+
+.footer-icon:active {
+	background-color: #FF7931;
+}
+
+.nav__link-footer:hover {
+color: #FF7931;
+}
+
+.nav__link-footer:active {
+	color: #FF7931;
+}
+
+.nav__link:hover {
+color:#FF7931;
+}
+
+.nav__link:active {
+	color: #FF7931;
 }
